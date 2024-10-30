@@ -6,6 +6,7 @@
     <RootNamespace>_2ndproject</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>_2ndproject.Class1</StartupObject>
   </PropertyGroup>
 
 </Project>

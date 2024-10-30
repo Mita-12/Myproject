@@ -12,16 +12,18 @@ namespace Myproject
         {
             for (int i = 0; i < 10; i++)
 
-            { 
-                for(int j = 0; j < 10; j++)
+            {
+                for (int j = 0; j < i + 1; j++)
                 {
                     j++;
-                    Console.WriteLine("*");
+                    Console.Write("*");
                 }
-                  Console.WriteLine("");
+                Console.WriteLine("");
+
             }
         }
-        static void Main() 
+    
+        static void Main(string[] args) 
         {
             Class2 class2 = new Class2();   
             class2.Equals(class2);  
